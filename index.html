@@ -2,13 +2,107 @@
 <html>
 <head>
     <title>Mis enlaces</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #044875;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            color: #000000;
+            margin-top: 0;
+            align-self: flex-start;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(7, 1fr); /* Mostrar 7 enlaces por fila */
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #035286;
+            background-color: #fff;
+            padding: 8px 12px;
+            border-radius: 5px;
+            display: inline-block;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+        }
+
+        a:hover {
+            background-color: #ecf0f1;
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 <body>
-    <h1>Enlaces:</h1>
+    <h1>Enlaces</h1>
     <ul>
-        <li><a href="https://revistas.uss.edu.pe/index.php/tzh/article/view/27/26">Enlace 1</a></li>
-        <li><a href="https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322016000500015#:~:text=En%20la%20comunicación%20con%20la,atención%20al%20lenguaje%20no%20verbal).">Enlace 2</a></li>
-        <li><a href="https://www.redalyc.org/pdf/1995/199520478047.pdf">Enlace 3</a></li>
+        <li><a href="https://www.who.int/es/news-room/fact-sheets/detail/quality-health-services#:~:text=%C2%BFQu%C3%A9%20es%20la%20calidad%3F,profesionales%20basados%20en%20datos%20probatorios./es/news-room/fact-sheets/detail/quality-health-services#:~:text=%C2%BFQu%C3%A9%20es%20la%20calidad%3F">Enlace 1</a></li>
+        <li><a href="https://www.minsalud.gov.co/Normatividad_Nuevo/Decreto%200780%20de%202016.pdf">Enlace 2</a></li>
+        <li><a href="https://www.minsalud.gov.co/salud/CAS/Paginas/seguridad-del-paciente.aspx">Enlace 3</a></li>
+        <li><a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Guia-buenas-practicas-seguridad-paciente.pdf">Enlace 4</a></li>
+        <li><a href="https://doi.org/10.30944/20117582.878">Enlace 5</a></li>
+        <li><a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/seguridad-en-procesos-quirurgicos.pdf">Enlace 6</a></li>        
+        <li><a href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resoluci%C3%B2n%200112%20de%202012%20-%20Documentos%20de%20apoyo%202.pdf">Enlace 7</a></li>
+        <li><a href="https://www.revistacirugia.org/index.php/cirugia/article/view/250">Enlace 8</a></li>        
+        <li><a href="https://ciberindex.com/index.php/ts/article/view/e13456">Enlace 9</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/15465935/">Enlace 10</a></li>        
+        <li><a href="https://doi.org/10.18273/saluduis.53.e:21006">Enlace 11</a></li>
+        <li><a href="https://doi.org/10.15649/cuidarte.1040">Enlace 12</a></li>        
+        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6421129/#:~:text=Several%20studies%20using%20direct%20observation,of%209%20times%20per%20operation.&text=One%20potential%20contributor%20to%20poor,is%20unfamiliarity%20among%20team%20members">Enlace 13</a></li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/34682520/">Enlace 14</a></li>        
+        <li><a href="https://www.elsevier.es/es-revista-revista-medica-clinica-las-condes-202-articulo-seguridad-del-p">Enlace 15</a></li>
+        <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9084615/#:~:text=Los%20eventos%20adversos%20son%20el,en%20prevenibles%20y%20no%20prevenibles.">Enlace 16</a></li>        
+        <li><a href="https://www.minsalud.gov.co/Normatividad_Nuevo/Resolución%20No.%203100%20de%202019.pdf">Enlace 17</a></li>
+        <li><a href="https://www.redalyc.org/journal/5608/560865631008/html/#redalyc_560865631008_ref28">Enlace 18</a></li>        
+        <li><a href="https://doi.org/10.51798/sijis.v3i2.393">Enlace 19</a></li>
+        <li><a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/CA/Guia-estrategia-de-comunicacion.pdf">Enlace 20</a></li>        
+        <li><a href="https://repositorio.udes.edu.co/server/api/core/bitstreams/58ce66b4-54f2-4ee9-a2e3-ad67a3d4ba97/content">Enlace 21</a></li>
+        <li><a href="https://dle.rae.es/entorno">Enlace 22</a></li>        
+        <li><a href="https://www.eumed.net/rev/caribe/2018/10/comunicacion-cirugia-pediatrica.html //hdl.handle.net/20.500.11763/caribe1810comunicacion-cirugia-pediatrica">Enlace 23</a></li>
+        <li><a href="https://web.ua.es/ar/aula-salud/documentos/2022-2023/08-comunicacion-asertiva.pdf">Enlace 24</a></li>
+        <li><a href="http://asegurados.descargas.nobleseguros.com/download/posts/October2017/GiYH0yUIuKXzgLbzDGyc.pdf">Enlace 25</a></li>        
+        <li><a href="https://www.paho.org/es/eventos/mejorar-calidad-atencion-prestacion-servicios-salud">Enlace 26</a></li>
+        <li><a href="http://revistapediatria.com.ar/wp-content/uploads/2022/07/Niños-Seguridad-284-39-43.pdf">Enlace 27</a></li>        
+        <li><a href="https://bogota.gov.co/que-hacer/formacion/seguridad-del-paciente">Enlace 28</a></li>
+        <li><a href="https://www.minsalud.gov.co/sites/rid/Lists/BibliotecaDigital/RIDE/DE/DIJ/ley-100-de-1993.pdf">Enlace 29</a></li>        
+        <li><a href="https://www.mineducacion.gov.co/1780/articles-408425_recurso_7.pdf">Enlace 30</a></li>
+        <li><a href="https://revistas.uss.edu.pe/index.php/tzh/article/view/27/26">Enlace 31</a></li>              
+        <li><a href="https://scielo.isciii.es/scielo.php?script=sci_arttext&pid=S1139-76322016000500015#:~:text=En%20la%20comunicación%20con%20la,atención%20al%20lenguaje%20no%20verbal).">Enlace 32</a></li>
+        <li><a href="https://www.redalyc.org/pdf/1995/199520478047.pdf">Enlace 33</a></li>        
+        <li><a href="http://biblioteca.usac.edu.gt/tesis/16/16_0337.pdf">Enlace 34</a></li>
+        
+
     </ul>
 </body>
 </html>
+
